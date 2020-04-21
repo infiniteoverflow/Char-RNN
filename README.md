@@ -95,4 +95,4 @@ The output of our RNN is from a fully-connected layer and it outputs a **distrib
 
 Our predictions come from a categorical probability distribution over all the possible characters. We can make the sample text and make it more reasonable to handle (with less variables) by only considering some $K$ most probable characters. This will prevent the network from giving us completely absurd characters while allowing it to introduce some noise and randomness into the sampled text. Read more about [topk, here](https://pytorch.org/docs/stable/torch.html#torch.topk).
 
-<img src='screenshot.png'>
+<img src='images/Screenshot 2020-04-21 at 7.48.04 PM.png'>
